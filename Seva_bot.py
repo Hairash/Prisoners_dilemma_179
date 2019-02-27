@@ -5,7 +5,7 @@ def Seva_bot(history,index,table):
 	else:
 		ei = 0
 	if len(history) == 0:
-		return ch(True,False)
+		return ch([True,False])
 	eh = [history[i][ei] for i in range(len(history))]
 	me = sum(eh)/len(eh)
 	return me>0.5
