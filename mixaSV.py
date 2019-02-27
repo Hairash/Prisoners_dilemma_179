@@ -1,3 +1,4 @@
 def mixaSV(table, Arr, n):
-    return 0
+    print('MIXA PES')
+    return 1
 
