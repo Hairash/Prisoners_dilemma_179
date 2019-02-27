@@ -1,4 +1,4 @@
-def evgfun(history, n, table):
+def evgfun(history, num, table):
     
     def get_prob(des):
         for turn in history:
